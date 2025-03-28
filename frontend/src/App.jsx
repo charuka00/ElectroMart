@@ -22,6 +22,7 @@ import ProductForm from "./pages/ProductHandling/ProductForm";
 import Admin from "./pages/ProductHandling/Admin";
 
 import Privacy from "./pages/Privacy";
+import Payment from "./pages/Payment";
 
 
 const App = () => {
@@ -43,7 +44,7 @@ const App = () => {
             <Route path="/my-orders" element={<MyOrders />} />
             <Route path="/feedbackdetails" element={<Feedbackdetails />} />
             <Route path="/updatefeedback" element={<Updatefeedback />} />
-
+            <Route path="/payment" element={<Payment />} />
             <Route path="/productdetails" element={ProductDetails} />
             <Route path="/" element={<Header />} />
             <Route path="/product/:productId" element={<ProductDetails />} />
